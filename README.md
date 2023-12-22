@@ -1,7 +1,7 @@
 # Weibo-of-China-EPB-content-analysis
 
 ## 简介
-本仓库是对于对外经济贸易大学《TODO》课程的代码开源。
+本仓库是对于对外经济贸易大学《TODO》课程大作业的代码开源。
 
 同时，是论文《TODO》的代码开源。
 
@@ -59,9 +59,15 @@ test.txt:测试集，包含2500条数据
 
 本repo利用tensorflow创建了cnn模型。如需复现，可直接执行
 
+(本地需要有python3.7及以上的环境)
+
 ```bash
-TODO
+cd src
+pip install -r requirements.txt
+python cnn.py
 ```
+
+然后，可以在model目录下看到h5格式的model。
 
 ## 引用
 
